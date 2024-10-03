@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="icon" href="img/logo.jfif">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="logo-tranparente.jpg" alt="" class="logo"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ingressos.html">Ingressos</a></li>
+                <li><a href="atracoes.html">Atrações</a></li>
+                <li><a href="form.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="tudo">
+        <div>
+            <h1 id="titulo">Sua experiência</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label><strong>Gênero</strong></label>
+                <label>
+                    <input type="radio" name="genero" value="masculino" checked>Masculino
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="feminino">Feminino
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="Não-binario">Nao binario
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="Prefiro-nao-dizer">Prefiro não dizer
+                </label>
+                <div class="campo">
+                    <br>
+                    <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                    <textarea rows="6" id="experiencia" name="experiencia"></textarea>
+                </div>
+                <button class="botao" type="submit" onsubmit="">Concluído</button>
+                <h3>Nos siga no Instagram</h3>
+                <a href="https://www.instagram.com/">instagram</a>
+                <br><br>
+                <h3>Acompanhe no GitHub</h3>
+                <li><a href="https://github.com/danielraujo">Daniel Araújo</a></li>
+                <li><a href="https://github.com/luvyennu">Jenifer Gomes</a></li>
+                <li><a href="https://github.com/ThayaneReis7">Thayane Reis</a></li>
+                <li><a href="https://github.com/annac015">Anna Carolina</a></li>
+                <li><a href="https://github.com/beatriz5siqueira">Beatriz Siqueira</a></li>
+        </form>
+    </div>
+
+</body>
+
+</html>
